@@ -1,0 +1,76 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter&family=Libre+Baskerville&family=Poppins:ital@0;1&family=Space+Grotesk&display=swap');
+
+.navbar {
+   background-image: url("./../../Images/Navbar.png");
+    position: sticky;
+    top: 0;
+    height: 7vh;
+    object-fit: cover;
+
+}
+.logo{
+    margin:20px 0 0 80px;
+
+}
+.logo-txt{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Caveat', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.logo al{
+    background-color: rgb(232, 45, 138);
+    font-size: 10px;
+    padding: 5px;
+    font-weight: 800;
+    margin: 0 0 8px 5px; 
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    margin-right: 175px;
+    margin-top: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: white
+    
+}
+.links span{
+ padding: 40px;
+ font-size: 16px;
+ cursor: pointer;
+}
+.services span{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+}
+.links Link{
+    display: flex;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.Nav-img{
+    width: 30px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user span{
+    margin-right:10px ;
+}

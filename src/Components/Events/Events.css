@@ -1,0 +1,34 @@
+.events{
+    margin: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:-20px;
+    justify-content: center;
+}
+.events-heading{
+    height: 300px;
+    width: 400px;
+    
+}
+.events-heading h1{
+    font-size: 50px;
+}
+.events-heading p{
+    font-size: 14px;
+    text-align: center;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.tab{
+    height: 200px;
+    width: 268px;
+
+}
+.tab img{
+    height: 180px;
+    width: 268px;
+}
